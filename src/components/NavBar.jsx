@@ -1,12 +1,16 @@
-import { NavLink } from "react-router-dom";
-import "./NavBar.css";
+	
+// src/pages/ErrorPage.js
+import NavBar from "../components/NavBar";
 
-function NavBar() {
+function ErrorPage() {
   return (
-    <nav className="navbar">
-    
-    </nav>
-    );
-};
+    <>
+      <NavBar />
+      <main>
+        <h1>Oops! Looks like something went wrong.</h1>
+      </main>
+    </>
+  );
+}
 
-export default NavBar;
+export default ErrorPage
